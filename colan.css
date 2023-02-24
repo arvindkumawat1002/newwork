@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+body
+{
+	font-family:"ppoppins",sans-serif;
+}
+a
+{
+	text-decoration: none;
+	font-weight: 100;
+	font-size:25px;
+	color:black;
+}
+/*.header-content  h1,h2,p*/
+{
+	color: white;
+}
+h1
+{
+	font-weight: 800;
+	font-size: 36px;
+	margin: 16px 0;
+  color: black;
+}
+.header-content p
+{
+  color: #f0ad11;
+}
+.header-content span
+{
+  color: #f0ad11;
+  font-size: 36px;
+}
+
+h2
+{
+	font-weight: 800;
+	font-size:25px;
+	margin: 16px 0;
+
+}
+p
+{
+	font-weight: 400;
+	font-size: 16px;
+	margin: 16px 0;
+
+}
+img
+{
+	width: 100%;
+	height: auto;
+}
+.row
+{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	align-items: center;
+	margin: auto;
+
+}
+section
+{
+	padding: 100px 0;
+  /*border: 1px solid red;*/
+	
+}
+/*hero Section*/
+header
+{
+	height: 100vh;
+
+	background:url("image/undrow1.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  background-color: #fae8ec;
+
+}
+.logo
+h1
+{
+	font-size: 45px;
+	color:#f0ad11;
+  margin-left: -280px;
+  
+
+}
+nav
+{
+	display: flex;
+	padding: 1% 8%;
+	justify-content: center;
+	
+
+}
+nav .bx
+{
+	display: none;
+}
+nav ul
+{
+	list-style: none;
+
+}
+nav ul li
+{
+	display: inline-block;
+	margin-left: 50px;
+  margin-top: 30px;
+
+}
+nav ul li a
+{
+  color: #f0ad11;
+}
+nav ul li a:hover
+{
+
+	color:#f0ad11;
+	transform: .5s ease-in-out;
+}
+.button
+{
+      width: 130px;
+      height:35px;
+      line-height: 35px;
+      background-color:#f0ad11;
+      color: white;
+      margin-top: 30px;
+      font-size: 14px; 
+      padding: 0 5px;
+      margin-left: 100px;
+      border-style: none;
+      border-radius: 5px;
+}
+.button1
+{
+      width: 130px;
+      height:35px;
+      line-height: 35px;
+      background-color:#f0ad11;
+      color: white;
+      font-size: 14px; 
+      padding: 0 5px;
+      border-style: none;
+      border-radius: 5px;
+}
+.button2
+{
+      width: 140px;
+      height:35px;
+      line-height: 35px;
+      background-color:transparent;
+      color:#f0ad11;
+      font-size: 14px; 
+      padding: 0 5px;
+      border-style: none;
+      border-radius: 5px;
+      border: 1px solid #f0ad11;
+      margin-left: 20px;
+}
+.button2:hover
+{
+      color:white;
+      background-color: #f0ad11;
+      transition: .5s;
+
+}
+
+
+.header-content
+{
+	width: 50%;
+	position: relative;
+	top: 16%;
+	left:8%;
+	color: white;
+
+}
+.about .row
+  {
+    justify-content: center;
+  }
+.about .row span
+{
+  font-size:20px;
+  color:  #f0ad11;
+}
+
+
+
+
+/*<!-- About -->*/
+  
+
+  .about-left,.about-right,.about-middle,.about-side
+  {
+  	flex-basis: 23%;
+  	margin-left: 25px;
+    text-align: center;
+    background-color:whitesmoke;
+    box-shadow: 0 0 3px 10px #dcdcdc; 
+  }
+ 
+  .about2
+  {
+  	background-color:whitesmoke;
+  	color: black;
+  }
+  .about2 .row
+  {
+    justify-content: center;
+
+  }
+  .about2 .row span
+  {
+     color:  #f0ad11;
+     font-size:20px;
+  }
+
+
+  .about2-left
+  {
+  	flex-basis: 50%;
+
+  }
+   .row .about2-left span
+  {
+    font-size: 16px;
+    text-decoration: underline;
+
+  }
+  
+
+   .about2-right
+  {
+  	flex-basis: 40%;
+
+  }
+   .about2-right img
+   {
+    height: 200px;
+   }
+
+  .about2 .card
+  {
+  	padding: 3rem 8rem;
+  	color: #222;
+    background-color: #fae8ec;
+  
+  	margin: 1.6rem;
+  	text-align: center;
+  }
+  /*---pprocess section---*/
+  .process .row
+  {
+  	justify-content: center;
+  }
+  .process .row span
+  {
+    font-size: 22px;
+     color:  #f0ad11;
+
+  }
+
+  .process-content
+  {
+  	margin-top: 100px;
+  }
+.card2
+{
+	flex-basis: 50%;
+  border: 1px solid #e8e3e4;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top:3%;
+  padding-left: 5%;
+
+  position: relative;
+}
+.card2 h3
+{
+  font-size:25px;
+}
+.card2 .bx
+{
+  position: absolute;
+  left: -1px;
+  background-color:#e8e3e4;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.card2 span::after
+{
+    content: "";
+    background: url("image/arrow.png") no-repeat;
+    width: 30px;
+    height: 27px;
+    display: block;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    
+  
+}
+.support
+{
+    background-color: #fae8ec;
+
+  
+
+}
+.support-left
+{
+  flex-basis: 50%;
+
+}
+.support-left span
+{
+   font-size: 25px;
+      color:#f0ad11;
+
+}
+.support-left p::after
+{
+    content: "";
+    background: url("image/arrow.png") no-repeat;
+    width: 30px;
+    height: 27px;
+    display: block;
+    position: relative;
+    top: -28px;
+    left: 180px;
+}
+.icon
+{
+  height: 40px;
+  width: 40px;
+  background-color:whitesmoke;
+  position: relative;
+  top: 145px;
+  left: -60px;
+  border-radius: 50%;
+
+}
+.icon img
+{
+  height:auto;
+  width: 100%;
+  object-fit: cover;
+}
+.icon2
+{
+  height: 40px;
+  width: 40px;
+  background-color:whitesmoke;
+  position: relative;
+  top: 232px;
+  left: -60px;
+  border-radius: 50%;
+}
+.icon3
+{
+  height: 40px;
+  width: 40px;
+  background-color:whitesmoke;
+  position: relative;
+  top: 302px;
+  left: -60px;
+  border-radius: 50%;
+}
+
+/*---footer---*/
+footer
+{
+    height: 80px;
+    background-color: #222;
+    color: whitesmoke;
+    line-height: 80px;
+    text-align: center;
+}
+
+
+
+
+
+/*media query*/
+@media only screen and (max-width: 768px)
+{    
+	.row
+	{
+		flex-direction: column;
+	}
+    nav
+    {
+    	flex-direction: column;
+    	position: relative;
+    }
+    nav .bx
+   {
+	display: block;
+	position: absolute;
+	top: 18px;
+	right: 32px;
+  color: black;
+   }
+   nav ul
+   {
+   	background: whitesmoke;
+   	display: none;
+   }
+   .showmenu
+   {
+   	display: block;
+   }
+   nav ul li 
+   {
+   	display: block;
+   	padding: 2% 0;
+   }
+   nav ul li a
+   {
+   	color: #222;
+   }
+   .header-content
+   {
+   	width: 100%;
+   	top: 16%;
+   	left: 0;
+   	text-align: center;
+   	padding: 0 8px;
+   }
+   .button
+   {
+    display: none;
+   }
+   .bx-menu:before
+    {
+    content: "\eb5f";
+    color: black;
+   }
+     .header-content h1
+   {
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+   .card
+  {
+    width: 100%;
+  }
+  .about-left,.about-right,.about-middle,.about-side
+  {
+    width:100%;
+    margin-top: 30px;
+  }
+  .about2-left
+  {
+    width: 100%;
+    text-align: center;
+
+  }
+  .card2
+  {
+    margin-top: 30px;
+  }
+}
+  
+  
+
+  
+
